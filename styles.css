@@ -60,16 +60,47 @@ main {
 }
 .about {
   margin-top: 130px;
+  text-align: center;
   background: #fff8f3;
   border-radius: 10px;
   padding: 130px 150px;
 }
 .section-title {
-  text-align: center;
   margin-bottom: 30px;
 }
 .section-desc {
   color: #757575;
   margin-bottom: 30px;
   font-size: 18px;
+}
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.what-i-do {
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+.skill-header {
+  font-weight: 900;
+}
+
+.skill-container {
+  display: flex;
+  gap: 24px;
+}
+.skill {
+  background-color: #ffff;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(65, 12, 12, 0.24);
+}
+.skill-header {
+  text-align: center;
+}
+.skill-title {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
